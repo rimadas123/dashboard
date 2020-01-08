@@ -1,0 +1,46 @@
+
+mkdir - make new directory 
+cd - chantge directory
+ls -a -> show hidden files
+ls -al -> show hidden + rest of the files
+pwd -> to show current working directory
+ls <word> which u want to particularly find in that file then click on tab 2 times
+ls -l -> it shows in long format
+clear
+ls ~ -> to see home directory
+cd ~ -> it goes to the home directory
+cd - -> it again comes back to its previous directory
+ls .. -> it will show all files in parent directory
+rm -r -> to recursivly delete directory
+mkdir -p -> is used to create directory inside a directory
+ls -p -> to identify which is the directory '/'
+
+-rw-r--r--
+first '-' this character specifies a file or directory
+-rw- -> read and write so this is user permission
+r-- -> group permission
+r-- -> other permission
+
+drwx-x--x
+x -> executable file
+d -> directory
+cp -copy 
+mv -cut 
+ls -l /directory-name
+ls /directory-name
+ln -s directory-name/file u want to copy in a folder where it will be easy for accessible.
+eg: ln -s linux-content/linux_chit_sheet.pdf
+to create directory in home directory use -> mkdir ~/directory-name/
+lrwxrwxrwx => 'l' symbolic link
+cat -> to read the content inside a file but if want to read more earsily then use 'less'
+head -> to show the content from the top
+tail ->  to show the content from the bottom
+find . size 5M or +5M(more than 5mb) or -5M$
+to find the file with respect to its size
+if u want to find specific files then -> find . size +5M -name *.pdf 
+grep -> find . -size +5M -type f | grep pdf
+eg: grep CAPTAIN linux-content/data.csv
+
+
+
+
